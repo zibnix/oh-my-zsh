@@ -9,11 +9,13 @@
 #
 # @author Zeno Rocha <hi@zenorocha.com>
 
-PURPLE=$FG[141]
-YELLOW=$FG[228]
-GREEN=$FG[084]
-CYAN=$FG[117]
-RED=$FG[009]
+RED=$FG[203]
+GREEN=$FG[002]
+YELLOW=$FG[003]
+PURPLE=$FG[004]
+PINK=$FG[005]
+CYAN=$FG[006]
+ORANGE=$FG[009]
 BOLD=$FX[bold]
 
 PROMPT='%{$BOLD$GREEN%}%n@%m➜%{$BOLD$PURPLE%}%d $(git_prompt_info)% %{$reset_color%}
